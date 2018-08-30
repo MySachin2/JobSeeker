@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JobSeeker</string>
+    <string-array name="steps">
+        <item>Credentials</item>
+        <item>Optional Details</item>
+        <item>Interests</item>
+        <item>Type</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

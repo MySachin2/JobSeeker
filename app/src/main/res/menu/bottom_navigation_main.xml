@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_my_jobs"
+            android:icon="@drawable/ic_bow_tie"
+            android:title="My Jobs" />
+        <item
+            android:id="@+id/nav_movies"
+            android:icon="@drawable/ic_valentines_heart"
+            android:title="Wishlist" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/nav_log_out"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/full_time"
+            android:title="Full Time"
+            android:orderInCategory="1"
+            android:checkable="true"/>
+
+        <item android:id="@+id/part_time"
+            android:title="Part Time"
+            android:orderInCategory="2"
+            android:checkable="true"/>
+
+        <item
+            android:id="@+id/internship"
+            android:title="Internship"
+            android:orderInCategory="3"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/work_from_home"
+            android:title="Work from home"
+            android:orderInCategory="4"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/daily_wages"
+            android:title="Daily wages"
+            android:orderInCategory="5"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/abroad"
+            android:title="Abroad"
+            android:orderInCategory="6"
+            android:checkable="true"/>
+</menu>
